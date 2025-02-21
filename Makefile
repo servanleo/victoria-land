@@ -3,5 +3,5 @@
 # alvo: pre-requisito1 pre-requisito2 ...
 #	 comandos que usam os pré-requisitos para gerar o alvo
 
-paper/project.tex: figures/dataflight.png
-	tectonic -X compile project.pdf
+paper/project.pdf: paper/project.tex
+	tectonic -X compile paper/project.tex
